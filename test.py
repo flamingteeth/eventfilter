@@ -2,7 +2,6 @@ from eventfilter import process
 from pathlib import Path
 import unittest
 
-
 class TestProcess(unittest.TestCase):
 
     def setUp(self):
