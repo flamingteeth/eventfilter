@@ -15,8 +15,8 @@ venv\Scripts\pip install -r requirements.txt        # Windows
 ## Run the program
 
 ```bash
-venv/bin/python eventfilter.py output.csv			# Linux
-venv\Scripts\python eventfilter.py output.csv		# Windows
+venv/bin/python eventfilter.py output.csv           # Linux
+venv\Scripts\python eventfilter.py output.csv       # Windows
 ```
 
 The output CSV is written to `output.csv`, or any other path you specify
@@ -26,8 +26,8 @@ in the command.
 Run the unit test
 
 ```bash
-venv/bin/python -m unittest							# Linux
-venv\Scripts\python -m unittest						# Windows
+venv/bin/python -m unittest                         # Linux
+venv\Scripts\python -m unittest                     # Windows
 ```
 
 ## Design Considerations
